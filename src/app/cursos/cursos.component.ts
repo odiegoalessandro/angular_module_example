@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./cursos.component.scss']
 })
 export class CursosComponent {
+  portalName: string;
+  courses: string[] = ["java", "javascrip", "react", "next", "angular", "node", "git"];
 
+  constructor() {
+    this.portalName = "https://youtube.com"
+  }
 }
